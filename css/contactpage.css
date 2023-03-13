@@ -1,0 +1,100 @@
+/*********************************** 
+Stlyes footer section (logo, links)
+************************************/
+
+.footer {
+    background-color: #51314d;
+    margin-top: 10px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+/*********************************
+Stles unordered list (navigation)
+**********************************/
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #51314d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.nav a,
+.nav a:visited {
+    display: block;
+    color: white;
+    width: 50%;
+}
+
+.nav a:active,
+.nav a:focus,
+.nav a:hover {
+    color: #97bc61;
+}
+
+/********************
+Styles Contact Page 
+ ********************/
+
+ .contact-us {
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #97bc61;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+ }
+
+ .send-message {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+ .form {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+    width: 100%;
+    
+ }
+
+ .message {
+    padding-bottom: 80px;
+ }
+
+ .send-btn {
+    background-color: #51314d;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+ }
