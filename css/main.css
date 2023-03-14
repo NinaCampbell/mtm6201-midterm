@@ -25,6 +25,11 @@ h2 {
     width: 50px;
     height: 50px;
     float: right;
+    transition: all 1s ease-in;
+}
+
+.white-roll:hover {
+    transform: rotate(360deg);
 }
 
 /************************
@@ -36,6 +41,11 @@ Stles image of pasteries
     height: 220px;
     margin-top: -10px;
     object-fit: cover;
+    transition: transform .5s ease-in-out .3s;
+}
+
+.pasteries-img:hover {
+    transform: scale(1.1);
 }
 
 /***************
@@ -63,6 +73,11 @@ Stles image of bread dough
     height: 220px;
     margin-top: 10px;
     object-fit: cover;
+    transition: transform .5s ease-in-out .3s;
+}
+
+.bread-dough:hover {
+    transform: scale(1.1);
 }
 
 /*********************************** 
@@ -71,7 +86,7 @@ Stlyes footer section (logo, links)
 
 .footer {
     background-color: #51314d;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .logo {
