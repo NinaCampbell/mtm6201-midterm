@@ -58,43 +58,22 @@ ul {
     color: #97bc61;
 }
 
-/********************
-Styles Contact Page 
- ********************/
+/*****************************************
+Stles h1, img of macarons and "About our Bakery" paragraph
+******************************************/
 
- .contact-us {
-    font-weight: bold;
-    padding-left: 15px;
-    padding-top: 50px;
+h1 {
     font-family: 'Cormorant Garamond', serif;
     background-color: #97bc61;
-    margin-top: 10px;
-    padding-bottom: 15px;
     color: white;
- }
-
- .send-message {
     padding: 15px;
-    font-family: 'Roboto', sans-serif;
+}
 
- }
-
- .form {
+p {
     font-family: 'Roboto', sans-serif;
-    display: block;
-    text-align: center;
+    line-height: 150%;
+}
+
+.macarons {
     width: 100%;
-    
- }
-
- .message {
-    padding-bottom: 80px;
- }
-
- .send-btn {
-    background-color: #51314d;
-    border: none;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 15px;
- }
+}
